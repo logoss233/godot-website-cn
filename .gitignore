@@ -5,3 +5,7 @@ node_modules
 build
 dist/js
 yarn.lock
+dist/assets
+package-lock.json
+assets
+

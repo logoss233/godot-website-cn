@@ -1,0 +1,80 @@
+#main_image{
+    background-color: rgba(51,63,103,0.4);
+    padding:0px;
+    margin:0px;
+    background-image:url(https://godotengine.org/themes/godotengine/assets/home/background.jpg);
+    background-position: top;
+    background-size:cover;
+    background-blend-mode:darken;
+    height:600px;
+}
+#main_message{
+    background-color:#333f67;
+    position:relative;
+    z-index:2;
+    color:#b0c4de;
+}
+#main_message .container{
+    overflow: initial;
+    display:flex;
+    width:1200px;
+    max-width:1200px;
+    margin:auto;
+}
+.index-page .padded{
+    padding-left:0px;
+    flex:1;
+    padding-top:64px;
+    padding-bottom:64px;
+}
+.index-page .dark h2{
+    color:white;
+}
+.index-page h2{
+    font-size:36px;
+    font-weight: 800;
+    margin-top:0px;
+}
+.index-page p{
+    text-rendering: optimizeLegibility;
+    line-height: 1.5;
+    display:block;
+}
+.index-page a.btn.download{
+    padding:0px;
+    margin-top:48px;
+}
+.index-page a.btn{
+    background-color:white;
+    box-shadow: 0 0 4px rgba(0,0,0,.2);
+    font-size:18px;
+    display:inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    color:#546b99;
+}
+.index-page a{
+    transition:color .1s ease-in-out;
+    outline:none;
+    color:#546b99;
+}
+.index-page a.btn.download > .main{
+    background-color:white;
+    color:black;
+    display:inline-block;
+    padding:16px 32px 16px 32px;
+    transition:background-color .1s ease-in-out,color .1s ease-in-out
+}
+.index-page a.btn.download > .opt{
+    background-color:#3d8fcc;
+    color:white;
+    display:inline-block;
+    padding:16px 16px 16px 16px;
+    transition:background-color .1s ease-in-out,color .1s ease-in-out;
+}
+
+@media screen and (min-width:1400px){
+    .index-page .container > :first-child{
+        padding-left:0px;
+    }
+}
